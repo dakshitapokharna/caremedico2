@@ -27,10 +27,9 @@
     position: relative;
     z-index: 0;
     height: 200px;
-    overflow: auto;         /* Enable scrolling */
-    scrollbar-width: none;  /* Firefox */
+    overflow: auto; /* Enable scrolling */
+    scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
-
   }
   .photo {
     position: absolute;
@@ -41,7 +40,6 @@
     background-size: cover;
     background-position: center;
     transition: transform 0.2s;
-    
   }
   .details,
   .details ul {
@@ -64,27 +62,27 @@
     font-weight: bold;
     font-size: 0.9rem;
     a {
-      text-decoration: dotted underline;
+      text-decoration: none;
     }
     ul li {
       display: inline-block;
     }
-    .author:before {
+    .bed:before {
       font-family: FontAwesome;
       margin-right: 10px;
-      content: "\f007";
+      content: "\f236";
     }
 
     .date:before {
       font-family: FontAwesome;
       margin-right: 10px;
-      content: "\f133";
+      content: "\f0f8";
     }
 
     .tags {
       ul:before {
         font-family: FontAwesome;
-        content: "\f02b";
+        content: "\f3c5";
         margin-right: 10px;
       }
       li {
@@ -168,6 +166,7 @@
       flex-basis: 40%;
       height: auto;
     }
+  
     .description {
       flex-basis: 60%;
       &:before {

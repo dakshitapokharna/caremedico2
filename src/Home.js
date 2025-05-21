@@ -65,6 +65,7 @@ const FeatureSection = () => {
                   </div>
                 </div>
               </div>
+              <br /><br />
               <div className="fe-down">
                 <div className="section">
                   <h2>Local Accommodation</h2>

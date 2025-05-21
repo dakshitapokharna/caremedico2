@@ -16,7 +16,9 @@ function Contact() {
     <div className="c-landing">
       <div className="c-up">
         <p className="c-up-text1">Get in Touch</p>
-        <p className="c-up-text2">We are trusted by over 50000+ patients. Join us for full support.</p>
+        <p className="c-up-text2">
+          We are trusted by over 50000+ patients. Join us for full support.
+        </p>
       </div>
       <div className="container">
         <span className="big-circle"></span>
@@ -82,26 +84,32 @@ function Contact() {
                   type="text"
                   name="name"
                   className="input"
-                  placeholder="name"
+                  placeholder="Name"
                 />
-
-                <label htmlFor="name">Name</label>
-                <span>Name</span>
               </div>
               <div className="input-container">
-                <input type="email" name="email" className="input" />
-                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  className="input"
+                  placeholder="Email"
+                />
               </div>
               <div className="input-container">
-                <input type="tel" name="phone" className="input" />
-                <label htmlFor="phone">Phone</label>
-                <span>Phone</span>
+                <input
+                  type="tel"
+                  name="phone"
+                  className="input"
+                  placeholder="Phone"
+                />
               </div>
 
               <div className="input-container textarea">
-                <textarea name="message" className="input"></textarea>
-                <label htmlFor="message">Medical Issue</label>
-                {/* <span>Message</span> */}
+                <textarea
+                  name="message"
+                  className="input"
+                  placeholder="Medical Issue"
+                ></textarea>
               </div>
               <input
                 type="submit"

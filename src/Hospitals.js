@@ -15,7 +15,7 @@ const Hospitals = () => {
             }}
           ></div>
           <ul className="details">
-            <li className="author">
+            <li className="bed">
               <a href="#">Beds: N/A</a>
             </li>
             <li className="date">Single Specialty</li>
@@ -55,7 +55,7 @@ const Hospitals = () => {
             }}
           ></div>
           <ul className="details">
-            <li className="author">
+            <li className="bed">
               <a href="#">Beds: 500</a>
             </li>
             <li className="date">Super Specialty</li>
@@ -94,7 +94,7 @@ const Hospitals = () => {
             }}
           ></div>
           <ul className="details">
-            <li className="author">
+            <li className="bed">
               <a href="#">Beds: 435</a>
             </li>
             <li className="date">Multi Specialty</li>
